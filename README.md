@@ -1,6 +1,3 @@
-¡De una! 🚀
-Te armo un **README.md** profesional y prolijo que podés usar como base para tu app de **compra y venta de criptomonedas en Java**.
-
 ---
 
 ```markdown
