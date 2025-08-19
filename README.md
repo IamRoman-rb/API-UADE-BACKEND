@@ -1,4 +1,3 @@
-```markdown
 # 💱 CryptoTradeApp  
 
 Aplicación desarrollada en **Java** utilizando principios de **POO** (Programación Orientada a Objetos), pensada para gestionar la compra y venta de criptomonedas de manera sencilla y escalable.  
