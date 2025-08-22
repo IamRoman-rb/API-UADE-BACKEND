@@ -1,6 +1,7 @@
 package com.uade.tpo.marketplace.entity.dto;
 
 import com.uade.tpo.marketplace.entity.Compra;
+import com.uade.tpo.marketplace.enums.Estados;
 import com.uade.tpo.marketplace.enums.TipoUsuarios;
 import lombok.Data;
 
@@ -16,5 +17,5 @@ public class UsuarioRequest {
     private int dni;
     private TipoUsuarios tipo;
     private ArrayList<Compra> compras;
-    private TiposEstados estado;
+    private Estados estado;
 }
