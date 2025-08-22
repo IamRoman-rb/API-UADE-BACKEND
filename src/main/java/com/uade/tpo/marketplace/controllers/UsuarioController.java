@@ -1,5 +1,4 @@
 package com.uade.tpo.marketplace.controllers;
 
-public class PublicacionController {
-    
+public class UsuarioController {
 }
