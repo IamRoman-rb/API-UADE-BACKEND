@@ -2,10 +2,12 @@ package com.uade.tpo.marketplace.entity.dto;
 
 import com.uade.tpo.marketplace.entity.Producto;
 import com.uade.tpo.marketplace.entity.Usuario;
+import lombok.Data;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 import java.util.Date;
 
+@Data
 public class ItemRequest {
     private String id;
     private Producto producto;
@@ -13,5 +15,5 @@ public class ItemRequest {
     private int cantidad;
     private float valor;
     private Date fecha;
-    private Timestamp hora;
+    private LocalDateTime hora;
 }

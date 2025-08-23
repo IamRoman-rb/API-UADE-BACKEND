@@ -2,7 +2,9 @@ package com.uade.tpo.marketplace.entity.dto;
 
 import com.uade.tpo.marketplace.enums.Categorias;
 import com.uade.tpo.marketplace.enums.Estados;
+import lombok.Data;
 
+@Data
 public class CategoriaRequest {
     private String id;
     private String nombre;
